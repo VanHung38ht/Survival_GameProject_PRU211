@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyRandom : MonoBehaviour
@@ -62,11 +63,18 @@ public class EnemyRandom : MonoBehaviour
         xPosition = Random.Range(screenLeft, screenRight);
         yPosition = Random.Range(screenTop, screenBottom);
         timeCreate += Time.deltaTime;
-        if (timeCreate >= 2 && (int)timeCreate % 2 == 0)
+        if (timeCreate >= 1 && (int)timeCreate % 2 == 0)
         {
             timeCreate = 0;
-            enemyObject.Add(Instantiate<GameObject>(SmallMonster, new Vector3(xPosition, yPosition, 0), Quaternion.identity));
-            enemyObject.Add(Instantiate<GameObject>(BigMonster, new Vector3(xPosition, yPosition, 0), Quaternion.identity));
+            a = Random.Range(1, 5);
+            if (a == 1 || a == 2)
+            {
+                enemyObject.Add(Instantiate<GameObject>(BigMonster, new Vector3(xPosition, yPosition, 0), Quaternion.identity));
+            }
+            if (a == 3 || a == 4 || a == 5)
+            {
+                enemyObject.Add(Instantiate<GameObject>(SmallMonster, new Vector3(xPosition, yPosition, 0), Quaternion.identity));
+            }
         }
     }
 }
