@@ -7,7 +7,7 @@ public class PauseEvents : MonoBehaviour
 {
     public GameObject pauseMenuScreen;
 
-    /*public GameObject saveGame;*/
+    public GameObject saveGame;
     public void PauseGame()
     {
         Time.timeScale = 0;
@@ -20,11 +20,11 @@ public class PauseEvents : MonoBehaviour
         pauseMenuScreen.SetActive(false);
     }
 
-    /*public void SaveGame()
+    public void SaveGame()
     {
         pauseMenuScreen.SetActive(false);
         saveGame.SetActive(true);
-    }*/
+    }
 
     public void GoToMenu(int index)
     {
