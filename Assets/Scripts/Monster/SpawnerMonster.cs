@@ -6,7 +6,7 @@ public class SpawnerMonster : MonoBehaviour
 {
     [SerializeField]
     public GameObject SmallMonster;
-    //public GameObject BigMonster;
+    public GameObject BigMonster;
     public float timeCreate;
     public float Speed = 5.0f;
 
@@ -65,15 +65,15 @@ public class SpawnerMonster : MonoBehaviour
         if (timeCreate >= 1 && (int)timeCreate % 2 == 0)
         {
             timeCreate = 0;
-            a = Random.Range(1, 3);
+            a = Random.Range(1, 5);
             if (a == 1 || a == 2 || a == 3)
             {
                 enemyObject.Add(Instantiate<GameObject>(SmallMonster, new Vector3(xPosition, yPosition, 0), Quaternion.identity));
             }
-            //if (a == 4 || a == 5)
-            //{
-            //    enemyObject.Add(Instantiate<GameObject>(BigMonster, new Vector3(xPosition, yPosition, 0), Quaternion.identity));
-            //}
+            if (a == 4 || a == 5)
+            {
+                enemyObject.Add(Instantiate<GameObject>(BigMonster, new Vector3(xPosition, yPosition, 0), Quaternion.identity));
+            }
         }
     }
 }
