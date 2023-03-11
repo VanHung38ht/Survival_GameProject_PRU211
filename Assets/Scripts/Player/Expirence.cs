@@ -7,7 +7,7 @@ public class Expirence : MonoBehaviour
     private Transform target;
     private const int Range = 20;
 
-    private LevelManager levelManager;
+   // private LevelManager levelManager;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class Expirence : MonoBehaviour
         {
             target = null;
         }
-        levelManager = GameObject.FindGameObjectWithTag("Exp Bar").GetComponent<LevelManager>();
+       // levelManager = GameObject.FindGameObjectWithTag("Exp Bar").GetComponent<LevelManager>();
     }
 
     // Update is called once per frame
@@ -46,7 +46,7 @@ public class Expirence : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             gameObject.SetActive(false);
-            levelManager.LevelUp(Value);
+           // levelManager.LevelUp(Value);
         }
     }
 }
