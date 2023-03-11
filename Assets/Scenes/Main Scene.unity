@@ -857,6 +857,7 @@ GameObject:
   - component: {fileID: 400488970}
   - component: {fileID: 400488969}
   - component: {fileID: 400488968}
+  - component: {fileID: 400488972}
   m_Layer: 0
   m_Name: Spawn
   m_TagString: Untagged
@@ -927,6 +928,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &400488972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400488967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4621174e6757c114ea6ab3e0d203228e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SmallMonster: {fileID: 986269346}
+  timeCreate: 0
+  Speed: 5
 --- !u!1 &509345756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,14 +1150,14 @@ GameObject:
   - component: {fileID: 986269350}
   m_Layer: 0
   m_Name: zombie_pink_0
-  m_TagString: Untagged
+  m_TagString: Small Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!95 &986269347
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1158,7 +1174,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &986269348
 SpriteRenderer:
   m_ObjectHideFlags: 0

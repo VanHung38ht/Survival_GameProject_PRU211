@@ -8,6 +8,8 @@ TagManager:
   - SaveLoad
   - Exp
   - Exp Bar
+  - Big Enemy
+  - Small Enemy
   layers:
   - Default
   - TransparentFX
