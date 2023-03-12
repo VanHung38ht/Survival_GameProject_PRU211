@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1930715358386476149}
   - component: {fileID: 1930715358386476148}
   - component: {fileID: 1930715358386476151}
-  - component: {fileID: 1930715358386476154}
   - component: {fileID: 1930715358386476155}
   m_Layer: 0
   m_Name: Player
@@ -107,21 +106,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &1930715358386476154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930715358386476150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6dbfaa0d4749649bb0ce54598dcbe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Joystick: {fileID: 0}
-  moveSpeed: 2
-  sprite: {fileID: 1930715358386476148}
 --- !u!50 &1930715358386476155
 Rigidbody2D:
   serializedVersion: 4
