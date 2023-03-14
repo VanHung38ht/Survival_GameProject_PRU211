@@ -1,52 +1,47 @@
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Expirence : MonoBehaviour
+public class HealthBar : MonoBehaviour
 {
-    [SerializeField]
-    private int Value;
-    private Transform target;
-    private const int Range = 20;
+    public Slider healthSlider;
+    public Text healthText;
+    private int health = 100;
 
-    private LevelManager levelManager;
-
-    // Start is called before the first frame update
     void Start()
     {
-
-        if (FindObjectOfType<Player>() != null)
-        {
-            target = FindObjectOfType<Player>().transform;
-        }
-        else
-        {
-            target = null;
-        }
-        levelManager = GameObject.FindGameObjectWithTag("Exp Bar").GetComponent<LevelManager>();
+        healthSlider.maxValue = health;
+        healthSlider.value = health;
+        UpdateHealthText();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (target == null)
+        if (other.gameObject.CompareTag("monster1"))
         {
-            gameObject.SetActive(false);
+            health -= 10;
+            healthSlider.SetValueWithoutNotify(health);
+            UpdateHealthText();
         }
-        else
+        else if (other.gameObject.CompareTag("monster2"))
         {
-            if (Vector3.Distance(target.position, transform.position) > Range)
-            {
-                gameObject.SetActive(false);
-            }
+            health -= 20;
+            healthSlider.SetValueWithoutNotify(health);
+            UpdateHealthText();
         }
 
+        if (health <= 0)
+        {
+            EndGame();
+        }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void UpdateHealthText()
     {
-        if (collision.gameObject.tag == "Player")
-        {
-            gameObject.SetActive(false);
-            levelManager.LevelUp(Value);
-        }
+        healthText.text = "Health: " + Mathf.RoundToInt((float)health / healthSlider.maxValue * 100) + "%";
+    }
+
+    void EndGame()
+    {
+        // Code ð? k?t thúc game
     }
 }
