@@ -46,7 +46,7 @@ public class Expirence : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             gameObject.SetActive(false);
-            levelManager.LevelUp(Value);
+           // levelManager.LevelUp(Value);
         }
     }
 }

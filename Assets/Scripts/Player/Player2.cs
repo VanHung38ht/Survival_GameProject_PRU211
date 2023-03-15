@@ -25,14 +25,14 @@ public class Player2 : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator playerAnimator;
 
-    /*private void Awake()
+    private void Awake()
     {
         GameObject.FindGameObjectWithTag("SaveLoad").GetComponent<SaveLoadSystemScript>().Load();
         playerData.HP = 100;
         playerData.speed = 5;
         playerData.armor = 0;
         isGameOver = false;
-    }*/
+    }
 
     void Start()
     {
