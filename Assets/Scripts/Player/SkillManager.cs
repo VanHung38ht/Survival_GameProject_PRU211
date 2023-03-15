@@ -16,13 +16,13 @@ public class SkillManager : MonoBehaviour
 
     private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
         }
         else
         {
-            if(instance != this)
+            if (instance != this)
             {
                 Destroy(gameObject);
             }
@@ -33,7 +33,7 @@ public class SkillManager : MonoBehaviour
     private void Start()
     {
         skillChooser = gameObject.GetComponent<SkillChooser>();
-        
+
     }
 
     private void Update()
@@ -55,12 +55,12 @@ public class SkillManager : MonoBehaviour
     public void UpdateButton()
     {
         Debug.Log("Active Skill: " + activeSkill);
-        if(activeSkill == null)
+        if (activeSkill == null)
         {
             skillButtons[1].skillDesc.text = $"!!!Please choose one skill to upgrade!!!";
             return;
         }
-        if(activeSkill.numberOfChoose <= 3)
+        if (activeSkill.numberOfChoose <= 3)
         {
             activeSkill.numberOfChoose += 1;
             UpdateSkill(activeSkill.skillName);
