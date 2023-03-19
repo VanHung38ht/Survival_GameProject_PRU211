@@ -1,0 +1,2951 @@
+fileFormatVersion: 2
+guid: a4abe906f015c7a418a675f079e7ec0f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 41
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kakariko-village_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77b94bef507454b955df73c26e06e2
+      internalID: 1726605320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8306e1221641f4d8f919baf7b67c93
+      internalID: -1400357710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8e265447314294084f6d08ee92d88a
+      internalID: -1082499833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d193877ef1bd66458df7ce6af904205
+      internalID: -1431047542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f61f7303e2af34694a80e3c73ae94d
+      internalID: -1077793655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7845b702be78726419f530e4132ab715
+      internalID: 1559188828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96515d8fb753e5a4886eab235d16fe2f
+      internalID: -1625371885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba5137b950bd0946912975bb4ea0e9f
+      internalID: 1474293909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df7613b4a83ee64e9262411b43a76c0
+      internalID: 757033539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a678e51ab68b448a411f151b7d054
+      internalID: 1092349095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8ed70664b243042bc67c77b97f637b
+      internalID: 628614864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769b0666ca342a14eb03785ad22c24a6
+      internalID: -872639300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe6728e8768fd49bfab09bd921a185
+      internalID: -2141093907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_13
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e9a113a2cbc4346ae1157b3b3fc391
+      internalID: -1261626174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_14
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e23930ebbc57c49a563dfd2752e537
+      internalID: -2034756820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_15
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 327
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6a0319c90404e43b10f745b980afb5
+      internalID: 471018876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe4f8f9fe3960547b825906ad53775c
+      internalID: 658367036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9505b1570667c04390d16872ffe77b2
+      internalID: 214730024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae87a15087f4e249a21c4fd596bbce5
+      internalID: 588456607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f406929928035aa4a9aae8a4b7a4c576
+      internalID: -190396873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5456167298ab0e4bb69ebe300542485
+      internalID: 633323837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a48ef74962fd3a44b9f5f0b54012850
+      internalID: -896748245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_22
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc03057739ac2e14e8a2948bdff154b6
+      internalID: -2001037614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_23
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec9b2cbed436df4b89d9237f1d9f7d5
+      internalID: 606332440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_24
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0fc9f0ecdbf7644adee3a062b781a0
+      internalID: -781609288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_25
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6d45a79e52d9748b58f3d073d53bee
+      internalID: 290618833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a6542c346f7134789fd1be2ca7b292
+      internalID: 1440458052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_27
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f960b75789def43b6df8bc4bbacb80
+      internalID: 756657130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_28
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6b5a28497a14748bbba131c5a06676
+      internalID: -227432185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_29
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f965db235ec87143956d7edfcee8b28
+      internalID: -1859717824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_30
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f7135aac825f74cb39f594970c46b4
+      internalID: 647746718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_31
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 286
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3832f7c4772aee42afaed83ac1bde5c
+      internalID: -609281992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791990f35bf961c4ab8bcb6d89fdb7e7
+      internalID: -648426008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_33
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3a385b830f60b4aaaf222904bfc7af
+      internalID: -1873045200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb84f34656085e4396a00e627238b1c
+      internalID: -810026415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_35
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21ab590dda33fd42a2c4781724e3700
+      internalID: 662686331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_36
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc754718dfe653c44b03d7650fb22f25
+      internalID: 427294077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_37
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9300946469d4f4382bc335971d9eaf
+      internalID: 2098463954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_38
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a29d4dc82677ad4680b2a221807e00a
+      internalID: -1568234293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_39
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf73aed65d4dcb48ae67ac1d3505dcf
+      internalID: -917274049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_40
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1de9c2f3f1cfa346aa3c235d7d1799a
+      internalID: -295044665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_41
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1db95547039594090e2d5115fd8ed0
+      internalID: -1394980149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1335988d41bfb4e418008df8250eec0c
+      internalID: 898553498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_43
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bae04011f1be644af0a23256d2ad2f
+      internalID: 611123769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8798926f691cec4e98822f00b9fb904
+      internalID: -535236671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_45
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc1fe37cfc534c439db62a6d8601219
+      internalID: -1600972371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_46
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c187feed1a281b747b64606e5992c366
+      internalID: -1523378258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_47
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 245
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9e4ea67a4a7ab4ebfc91f8652faf49
+      internalID: 405454347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa33380748bd774a9980838dde7f501
+      internalID: 1022731268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d2265921de2824c87d38066a26b0c6
+      internalID: 1178263951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76f104abcdb7834f9509c512aba6b4e
+      internalID: -424501367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e223854ccb44c674db0534a409200d8f
+      internalID: 1816378362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_52
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6480ac27d1e10464fa14e8dc5d0b1698
+      internalID: 1294346010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_53
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8911c6dd7d80a904aae00fbec36bca75
+      internalID: 1377750272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_54
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc6e660b22ea1448a633dc6ee077a09
+      internalID: 1853203834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_55
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c18dbc1e27c9f4894d71856b1cb178
+      internalID: -1571916970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_56
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028dfb584173216448561f52e3ecb567
+      internalID: 688947833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_57
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702581e9a13ad5d46b389679b721df2e
+      internalID: -632039111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_58
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048464a490508244d83ae014f037ed40
+      internalID: -155949716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_59
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4819839a3022fb04ba5b790b8a01462c
+      internalID: -290344321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_60
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fc7c01856c96747ab38940bed5a7d9
+      internalID: 452301176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_61
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fca7239794e8e4d8231ac2ba41299e
+      internalID: -838934391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_62
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770feaf563b5bef4b96db7ec687b72b1
+      internalID: 631262593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_63
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 204
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93fa8e07ff3ebd468c2b10991dbf0d0
+      internalID: 1262636046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea59e2749b0244b429a2803358e26b0b
+      internalID: -1230594284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_65
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d385394544d7f2d4aa8af374da3a6743
+      internalID: -327348297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_66
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc04ffe42886a8468825caf9aa13d5f
+      internalID: 241125940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_67
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc122174513be3f4bb6fbe0603c5a8e3
+      internalID: -1298465619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_68
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f399be2cfc6fe4c9e058b31b7640b1
+      internalID: -1728564939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_69
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab5a0be5bb38bf45bc429c03d33e301
+      internalID: 2006520788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_70
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007e298a5de1c50429c4e030494066b1
+      internalID: 213265612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_71
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f9cea34d282124a893eb074b01a056
+      internalID: -840828835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_72
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98211a372dd54b49a8d918b59930986
+      internalID: -716102032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_73
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e95cd5a31bda44db0cc2b52021515e
+      internalID: -795401352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_74
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e182a129f85ebd45ba77f6e78a6d0a7
+      internalID: -681934310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_75
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad2020829098d34988fb3e13a74f0a4
+      internalID: -1119765566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_76
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c03adedde56184980e3f7c44749dfc
+      internalID: 677539463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b0aaf3a6b160147834cf49e9f5acb6
+      internalID: -987686279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_78
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa808e07537765478650a98dc65ca4a
+      internalID: -273351499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_79
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 163
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb60b0e0d63b2124184afadf723903e2
+      internalID: 1603689865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a810e7aa2ff1fc942b9af981041c6740
+      internalID: -1854028583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_81
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cc1bec1497a524fb11f80bd2f2eb9b
+      internalID: 26103413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_82
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9ad99ea3fde3147bf8d058e01e9220
+      internalID: -2056699833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_83
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193d9c5e911bc3146ba40afaa1c9d934
+      internalID: -1518247728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_84
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17099a6719f3c0f40b29763f72192e9c
+      internalID: 2049279053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_85
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489c90e7bdb448d4a972eba3fb122dd0
+      internalID: -1883578924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_86
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc45b25cc02640d46a463096aaa534b3
+      internalID: 1098376235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_87
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39717043ff9c3634dafbfaa22b3d8509
+      internalID: 2139640749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_88
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd57dd7bd943d30469b1d897abc70a67
+      internalID: 1154771860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_89
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d8b5e9993fc054bab69a4bf48333c2
+      internalID: 2073634984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_90
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf18e3f2608bd7d4eb7be0c57999c3b7
+      internalID: 724051234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_91
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9478893ef61596489c63d3308170308
+      internalID: 1899418240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_92
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01baabf1326d3f241bce3b17a5ffe7bc
+      internalID: 398097524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_93
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83956365128740418f18258a5b26199
+      internalID: 980259006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_94
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bcd722ad6e71c43ba6f4e9f2c061ec
+      internalID: 1673308047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_95
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 122
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cab98ec2833e894f811ce75720934b4
+      internalID: -1563721264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49e9d13f6b98f3479ccb6f287cd5f02
+      internalID: 1731649598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_97
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a5482b2ea7efc43923e0dc0e5de91a
+      internalID: 751073520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_98
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4489c1d4d12cf4483d2296e3a5a83f
+      internalID: 889467732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_99
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90b9913ef479aa4191e78b093c2b4f1
+      internalID: -1022681477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_100
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad750cf3193ec4a4598297e61059a0b1
+      internalID: 1035463691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_101
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b83efa51b240b478d3d49843193d13
+      internalID: 551346868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_102
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e20c9a2d93bc84d9d8faacaf4dd490
+      internalID: -821724157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_103
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218c97f79f9ec3c4591ef86047bd4db8
+      internalID: 229179150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_104
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f69ea0dbedc0834fbccaba727a8e078
+      internalID: -1983674204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_105
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2610087d5352a4195f5856253e0efd
+      internalID: 220246748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_106
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdfecbb20fad27429b40d2b55102fac
+      internalID: -1124334596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_107
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3266fa5ed0029af4097f6a2309148fac
+      internalID: 905813434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_108
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cd1440a379f0648abdd54106f6a4e7
+      internalID: 94451245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_109
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db3987a44c729a4a9ad59673577826a
+      internalID: -767102408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_110
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fede080f4368a0c4a84bc447352f6360
+      internalID: 1688696574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_111
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 81
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b34603481c0ab14eb4dbec33006b0df
+      internalID: 1863256438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d045736786ec7149b250db8916cf235
+      internalID: 1019377118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_113
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6ede8748b836f4cbd8aad57c33a819
+      internalID: 1777105932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_114
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916550490177b9344828e053eb19a7ec
+      internalID: 1005420783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_115
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ed4e1a167eab543abdd6ef02e8a8a7
+      internalID: -69720798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_116
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c3fb30773d9e548b2ee120f5e5c782
+      internalID: 1246301505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_117
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4c71271a7cb3249ac08e30d0e62bb6
+      internalID: 1368930012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_118
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c496ab1e2687ba47a8accad556fc7da
+      internalID: 1866503073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_119
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ae274d2247f3048b82f0256d5a573b
+      internalID: -1164160629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_120
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a52635def840b4d9fb5e669d5eee77
+      internalID: 147079894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_121
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d9499081c745747b8a4722405c7ff9
+      internalID: 1373163216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_122
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a36f811b66cd7749a5fc95de77682c1
+      internalID: 493800027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_123
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b61f5046b4f3141958de9242e4f4fe
+      internalID: -887039916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_124
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a873cb3b8fc910f48ae6a60b2bcc40ca
+      internalID: 1167507168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_125
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034e63e37d10a5441bdaf31fa7540bde
+      internalID: 1551814584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_126
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde3b8bddf30d0b4abbd055f66c2900b
+      internalID: 1421981200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kakariko-village_127
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 40
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb7414bacef9784ab277b43b08a1111
+      internalID: -397152101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kakariko-village_111: 1863256438
+      kakariko-village_11: -872639300
+      kakariko-village_73: -795401352
+      kakariko-village_31: -609281992
+      kakariko-village_30: 647746718
+      kakariko-village_95: -1563721264
+      kakariko-village_12: -2141093907
+      kakariko-village_91: 1899418240
+      kakariko-village_94: 1673308047
+      kakariko-village_72: -716102032
+      kakariko-village_56: 688947833
+      kakariko-village_121: 1373163216
+      kakariko-village_47: 405454347
+      kakariko-village_43: 611123769
+      kakariko-village_68: -1728564939
+      kakariko-village_97: 751073520
+      kakariko-village_52: 1294346010
+      kakariko-village_4: -1077793655
+      kakariko-village_118: 1866503073
+      kakariko-village_27: 756657130
+      kakariko-village_61: -838934391
+      kakariko-village_54: 1853203834
+      kakariko-village_10: 628614864
+      kakariko-village_40: -295044665
+      kakariko-village_70: 213265612
+      kakariko-village_35: 662686331
+      kakariko-village_17: 214730024
+      kakariko-village_119: -1164160629
+      kakariko-village_83: -1518247728
+      kakariko-village_90: 724051234
+      kakariko-village_101: 551346868
+      kakariko-village_62: 631262593
+      kakariko-village_45: -1600972371
+      kakariko-village_107: 905813434
+      kakariko-village_36: 427294077
+      kakariko-village_23: 606332440
+      kakariko-village_16: 658367036
+      kakariko-village_5: 1559188828
+      kakariko-village_8: 757033539
+      kakariko-village_58: -155949716
+      kakariko-village_49: 1178263951
+      kakariko-village_114: 1005420783
+      kakariko-village_26: 1440458052
+      kakariko-village_29: -1859717824
+      kakariko-village_21: -896748245
+      kakariko-village_6: -1625371885
+      kakariko-village_39: -917274049
+      kakariko-village_20: 633323837
+      kakariko-village_63: 1262636046
+      kakariko-village_79: 1603689865
+      kakariko-village_82: -2056699833
+      kakariko-village_76: 677539463
+      kakariko-village_3: -1431047542
+      kakariko-village_24: -781609288
+      kakariko-village_22: -2001037614
+      kakariko-village_60: 452301176
+      kakariko-village_86: 1098376235
+      kakariko-village_92: 398097524
+      kakariko-village_7: 1474293909
+      kakariko-village_14: -2034756820
+      kakariko-village_80: -1854028583
+      kakariko-village_116: 1246301505
+      kakariko-village_81: 26103413
+      kakariko-village_103: 229179150
+      kakariko-village_117: 1368930012
+      kakariko-village_46: -1523378258
+      kakariko-village_78: -273351499
+      kakariko-village_53: 1377750272
+      kakariko-village_2: -1082499833
+      kakariko-village_18: 588456607
+      kakariko-village_124: 1167507168
+      kakariko-village_34: -810026415
+      kakariko-village_123: -887039916
+      kakariko-village_66: 241125940
+      kakariko-village_85: -1883578924
+      kakariko-village_15: 471018876
+      kakariko-village_125: 1551814584
+      kakariko-village_50: -424501367
+      kakariko-village_64: -1230594284
+      kakariko-village_110: 1688696574
+      kakariko-village_88: 1154771860
+      kakariko-village_122: 493800027
+      kakariko-village_126: 1421981200
+      kakariko-village_0: 1726605320
+      kakariko-village_55: -1571916970
+      kakariko-village_104: -1983674204
+      kakariko-village_38: -1568234293
+      kakariko-village_109: -767102408
+      kakariko-village_108: 94451245
+      kakariko-village_106: -1124334596
+      kakariko-village_87: 2139640749
+      kakariko-village_42: 898553498
+      kakariko-village_98: 889467732
+      kakariko-village_113: 1777105932
+      kakariko-village_127: -397152101
+      kakariko-village_115: -69720798
+      kakariko-village_33: -1873045200
+      kakariko-village_37: 2098463954
+      kakariko-village_32: -648426008
+      kakariko-village_1: -1400357710
+      kakariko-village_28: -227432185
+      kakariko-village_13: -1261626174
+      kakariko-village_67: -1298465619
+      kakariko-village_19: -190396873
+      kakariko-village_75: -1119765566
+      kakariko-village_25: 290618833
+      kakariko-village_120: 147079894
+      kakariko-village_74: -681934310
+      kakariko-village_93: 980259006
+      kakariko-village_51: 1816378362
+      kakariko-village_89: 2073634984
+      kakariko-village_9: 1092349095
+      kakariko-village_44: -535236671
+      kakariko-village_77: -987686279
+      kakariko-village_41: -1394980149
+      kakariko-village_84: 2049279053
+      kakariko-village_99: -1022681477
+      kakariko-village_105: 220246748
+      kakariko-village_48: 1022731268
+      kakariko-village_102: -821724157
+      kakariko-village_71: -840828835
+      kakariko-village_57: -632039111
+      kakariko-village_59: -290344321
+      kakariko-village_96: 1731649598
+      kakariko-village_65: -327348297
+      kakariko-village_112: 1019377118
+      kakariko-village_69: 2006520788
+      kakariko-village_100: 1035463691
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
