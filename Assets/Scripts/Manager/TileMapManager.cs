@@ -287,4 +287,6 @@ public class TileMapManager : MonoBehaviour
         public int Position;
         public GameObject TheObject;
     }
+
+    //fix
 }
