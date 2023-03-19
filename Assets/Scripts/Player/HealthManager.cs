@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HealthManager : MonoBehaviour, ISavevable
 {
-    private Player player;
+    private Player2 player;
     public float currentHealth;
     public float maxHealth;
     private float timeToHealth;
@@ -17,7 +17,7 @@ public class HealthManager : MonoBehaviour, ISavevable
     {
         SkillManager.instance.healthManager = this;
         timeToHealth = 3f;
-        player = GetComponent<Player>();
+        player = GetComponent<Player2>();
         if (!isSave)
         {
             maxHealth = player.playerData.HP;
