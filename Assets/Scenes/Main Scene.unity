@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34874c6a3a03bec478dc60853f3eaa6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnTime: 0
+  spawnTime: 0.5
   cam: {fileID: 1871850327}
 --- !u!4 &400488971
 Transform:
@@ -1703,14 +1703,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400488967}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4621174e6757c114ea6ab3e0d203228e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SmallMonster: {fileID: 0}
-  BigMonster: {fileID: 0}
-  timeCreate: 0
+  SmallMonster: {fileID: 104934568176716486, guid: 5debf93ec81242944a3172fa562434d7, type: 3}
+  BigMonster: {fileID: 3570192748331204148, guid: 21122226ed3df944bb7784b61f0cb4a7, type: 3}
+  timeCreate: 0.5
   Speed: 5
 --- !u!1 &438962796
 GameObject:
@@ -7330,12 +7330,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1930715358386476149, guid: a21e89840e06fe448b6e3b3e67b546fe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1310282
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930715358386476149, guid: a21e89840e06fe448b6e3b3e67b546fe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2919505
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930715358386476149, guid: a21e89840e06fe448b6e3b3e67b546fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1930715358386476149, guid: a21e89840e06fe448b6e3b3e67b546fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0245
       objectReference: {fileID: 0}
     - target: {fileID: 1930715358386476149, guid: a21e89840e06fe448b6e3b3e67b546fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7444,6 +7452,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3834866657577206666, guid: 2f4abbc7f549ab9498cca4c39d857ab8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3834866658511488915, guid: 2f4abbc7f549ab9498cca4c39d857ab8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3834866658511488915, guid: 2f4abbc7f549ab9498cca4c39d857ab8, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
