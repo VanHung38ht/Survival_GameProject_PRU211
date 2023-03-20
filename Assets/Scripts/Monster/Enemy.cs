@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour, IBaseEntity
 {
     [SerializeField]
-    //private GameObject expPrefab;
+    private GameObject expPrefab;
     public BaseData.EnemyDataManager enemyData;
     private Rigidbody2D _body;
     private Transform target;
@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour, IBaseEntity
         {
             gameObject.SetActive(false);
             Destroy(collision.gameObject);
-            //Instantiate(expPrefab, transform.position, Quaternion.identity);
+            Instantiate(expPrefab, transform.position, Quaternion.identity);
         }
     }
 }

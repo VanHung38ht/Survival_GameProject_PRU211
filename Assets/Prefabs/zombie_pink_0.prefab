@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3570192748331204158}
   - component: {fileID: 3570192748331204145}
   - component: {fileID: 3570192748331204144}
+  - component: {fileID: -6633333331093768922}
   m_Layer: 0
   m_Name: zombie_pink_0
   m_TagString: Small Enemy
@@ -167,4 +168,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313dd73276d1759409a55276b9f8a39d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  expPrefab: {fileID: 1901187222928990697, guid: 5e28e3f1405327e49bec95072afe9d79, type: 3}
   enemyData: {fileID: 11400000, guid: 54c1b3cd67e1420428a627df481fe27e, type: 2}
+--- !u!114 &-6633333331093768922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3570192748331204148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64738c6abf87ad44ba716aea770fe79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 3570192748331204144}
