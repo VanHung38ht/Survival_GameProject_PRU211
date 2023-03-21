@@ -170,6 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expPrefab: {fileID: 1901187222928990697, guid: 5e28e3f1405327e49bec95072afe9d79, type: 3}
   enemyData: {fileID: 11400000, guid: 54c1b3cd67e1420428a627df481fe27e, type: 2}
+  sprite: {fileID: 3570192748331204146}
 --- !u!114 &-6633333331093768922
 MonoBehaviour:
   m_ObjectHideFlags: 0

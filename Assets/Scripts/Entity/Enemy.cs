@@ -9,7 +9,8 @@ public class Enemy : MonoBehaviour, IBaseEntity
     public BaseData.EnemyDataManager enemyData;
     private Rigidbody2D _body;
     private Transform target;
-
+    private GameObject player;
+    [SerializeField] SpriteRenderer sprite;
     public float BaseSpeed { get; set; } = 10;
     public float SmoothTime { get; set; } = 0.04f;
 
@@ -43,6 +44,7 @@ public class Enemy : MonoBehaviour, IBaseEntity
     // Update is called once per frame
     void Update()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         if (target == null)
         {
             gameObject.SetActive(false);
@@ -51,6 +53,14 @@ public class Enemy : MonoBehaviour, IBaseEntity
         {
             if (Vector3.Distance(target.position, transform.position) <= enemyData.range + 20)
             {
+                if (transform.position.x < player.transform.position.x)
+                {
+                    sprite.flipX = false;
+                }
+                if (transform.position.x > player.transform.position.x)
+                {
+                    sprite.flipX = true;
+                }
                 Movement();
             }
         }
