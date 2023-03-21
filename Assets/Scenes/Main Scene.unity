@@ -1708,8 +1708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4621174e6757c114ea6ab3e0d203228e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SmallMonster: {fileID: 104934568176716486, guid: 5debf93ec81242944a3172fa562434d7, type: 3}
-  BigMonster: {fileID: 3570192748331204148, guid: 21122226ed3df944bb7784b61f0cb4a7, type: 3}
+  SmallMonster: {fileID: 3570192748331204148, guid: 21122226ed3df944bb7784b61f0cb4a7, type: 3}
+  BigMonster: {fileID: 104934568176716486, guid: 5debf93ec81242944a3172fa562434d7, type: 3}
   timeCreate: 0.5
   Speed: 5
 --- !u!1 &415913787
@@ -2763,9 +2763,10 @@ GameObject:
   m_Component:
   - component: {fileID: 565867688}
   - component: {fileID: 565867689}
+  - component: {fileID: 565867690}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: Exp Bar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2800,7 +2801,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565867687}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8b9a20daaf2ddb45b5d40c7c7fa61b4, type: 3}
   m_Name: 
@@ -2809,9 +2810,22 @@ MonoBehaviour:
   text_2: {fileID: 702009999}
   circle_1: {fileID: 913218399}
   circle_2: {fileID: 1876475049}
-  smallEnemy: {fileID: 104934568176716486, guid: 5debf93ec81242944a3172fa562434d7, type: 3}
-  bigEnemy: {fileID: 3570192748331204148, guid: 21122226ed3df944bb7784b61f0cb4a7, type: 3}
+  rock_monster_0: {fileID: 104934568176716486, guid: 5debf93ec81242944a3172fa562434d7, type: 3}
+  zombie_pink_0: {fileID: 3570192748331204148, guid: 21122226ed3df944bb7784b61f0cb4a7, type: 3}
   exp: {fileID: 1688721326}
+--- !u!114 &565867690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565867687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b061f9f98f6696a489ff93ff48ae9070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
 --- !u!1 &660353714
 GameObject:
   m_ObjectHideFlags: 0
@@ -3709,7 +3723,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -54.84143}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: -703.1231}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1026936150
@@ -5562,8 +5576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035, y: -99.6}
-  m_SizeDelta: {x: 130.252, y: 82.639}
+  m_AnchoredPosition: {x: 0.000061035, y: -87.323326}
+  m_SizeDelta: {x: 130.252, y: 58.0856}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521391980
 MonoBehaviour:

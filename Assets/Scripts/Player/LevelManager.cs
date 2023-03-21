@@ -22,10 +22,10 @@ public class LevelManager : MonoBehaviour,ISavevable
     private Image circle_2;
 
     [SerializeField]
-    private GameObject smallEnemy;
+    private GameObject rock_monster_0;
 
     [SerializeField]
-    private GameObject bigEnemy;
+    private GameObject zombie_pink_0;
 
     private int level;
 
@@ -83,8 +83,8 @@ public class LevelManager : MonoBehaviour,ISavevable
     {
         if(level % 2 == 0)
         {
-            smallEnemy.GetComponent<Enemy>().enemyData.Speed += (smallEnemy.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
-            bigEnemy.GetComponent<Enemy>().enemyData.Speed += (bigEnemy.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
+            rock_monster_0.GetComponent<Enemy>().enemyData.Speed += (rock_monster_0.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
+            zombie_pink_0.GetComponent<Enemy>().enemyData.Speed += (zombie_pink_0.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
         }
         StartCoroutine(ChooseSkill());
         this.level = level;

@@ -8,6 +8,7 @@ public class HurtPlayer : MonoBehaviour
     [SerializeField]
     private Enemy enemy;
     private HealthManager healthManager;
+    //private RockMons rockMons;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class HurtPlayer : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             healthManager.HurtPlayer(enemy.enemyData.meleeDamage);
+            //healthManager.HurtPlayer(rockMons.DamageRM);
         }
     }
 }

@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 1930715358386476151}
   - component: {fileID: 1930715358386476154}
   - component: {fileID: 1930715358386476155}
+  - component: {fileID: 5960513534112973219}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,6 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6dbfaa0d4749649bb0ce54598dcbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerData: {fileID: 11400000, guid: b2714c35ca58e6a40b0d3a7f3192f9d6, type: 2}
+  timeToFireBulletHell: 0
   Joystick: {fileID: 0}
   moveSpeed: 2
   sprite: {fileID: 1930715358386476148}
@@ -143,3 +146,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5960513534112973219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930715358386476150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0fd242f30d843c42b38fe5cfff5ec3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 0
+  saveTimeToHealth: 0
+  isRegen: 0
