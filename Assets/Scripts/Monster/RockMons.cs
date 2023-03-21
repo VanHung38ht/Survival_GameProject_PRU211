@@ -12,7 +12,7 @@ public class RockMons : MonoBehaviour
     private float expRM = 10;
     private float startTimeBtwShotsRM = 3;
     private float timeBtwShotsRM = 0;
-    private float attackRangeRM = 10;
+    private float attackRangeRM = 5;
     private float attackSpeedBulletRM = 5;
     private float existenceTimeBulletRM = 3;
 
