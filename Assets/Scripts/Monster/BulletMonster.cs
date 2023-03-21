@@ -65,7 +65,7 @@ public class BulletMonster : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            Destroy(gameObject);
+           // Destroy(gameObject);
             Instantiate(expRM, transform.position, Quaternion.identity);
         }
     }
