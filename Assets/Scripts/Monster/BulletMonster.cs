@@ -10,23 +10,14 @@ public class BulletMonster : MonoBehaviour
     [SerializeField] GameObject bulletRM;
     private bool InRange;
     [SerializeField] private RockMons rockMons;
-    [SerializeField] SpriteRenderer sprite;
     public GameObject expRM;
-    // Update is called once per frame
+
     void Update()
     {
         player = GameObject.FindGameObjectWithTag("Player");
 
         Vector3 differance = player.transform.position - transform.position;
         float rotZ = Mathf.Atan2(differance.y, differance.x) * Mathf.Rad2Deg;
-        if (transform.position.x < player.transform.position.x)
-        {
-            sprite.flipX = false;
-        }
-        if (transform.position.x > player.transform.position.x)
-        {
-            sprite.flipX = true;
-        }
         if (Vector2.Distance(transform.position, player.transform.position) > rockMons.AttackRangeRM)
         {
             InRange = true;
@@ -65,7 +56,6 @@ public class BulletMonster : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-           // Destroy(gameObject);
             Instantiate(expRM, transform.position, Quaternion.identity);
         }
     }
