@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HealthManager : MonoBehaviour, ISavevable
 {
-    private Player2 player;
+    private Player player;
     public float currentHealth;
     public float maxHealth;
     private float timeToHealth;
@@ -15,9 +15,9 @@ public class HealthManager : MonoBehaviour, ISavevable
     // Start is called before the first frame update
     void Start()
     {
-        SkillManager.instance.healthManager = this;
+       // SkillManager.instance.healthManager = this;
         timeToHealth = 3f;
-        player = GetComponent<Player2>();
+        player = GetComponent<Player>();
         if (!isSave)
         {
             maxHealth = player.playerData.HP;
@@ -49,7 +49,7 @@ public class HealthManager : MonoBehaviour, ISavevable
         currentHealth -= damageReceive - player.playerData.armor;
         if (currentHealth <= 0)
         {
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
             PlayerManager.isGameOver = true;
         }
     }

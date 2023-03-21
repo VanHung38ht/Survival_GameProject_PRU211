@@ -11,6 +11,8 @@ TagManager:
   - Big Enemy
   - Small Enemy
   - Skill Chooser
+  - BulletMonster
+  - Bullet
   layers:
   - Default
   - TransparentFX

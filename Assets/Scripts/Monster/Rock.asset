@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b862e2c261d27cd4ab0a35356fe6b8c9, type: 3}
   m_Name: Rock
   m_EditorClassIdentifier: 
-  className: 
-  classDescription: 
-  HP: 0
-  percentRegenHP: 0
-  armor: 0
-  percentDamage: 0
-  meleeDamage: 0
+  className: zombie
+  classDescription: Dumb
+  HP: 10
+  percentRegenHP: 1
+  armor: 4
+  percentDamage: 1
+  meleeDamage: 3
   rangeDamage: 0
   elementDamage: 0
   percentLifeSteel: 0
   attackRange: 0
-  range: 0
+  range: 15
   percentAttackSpeed: 0
   Speed: 0
-  xpDrop: 0
+  xpDrop: 10
   percentExpGains: 0
   percentCoinGains: 0

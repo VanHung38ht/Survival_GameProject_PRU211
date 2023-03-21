@@ -1,54 +1,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class Player : MonoBehaviour, IBaseEntity
+public class Player : MonoBehaviour
 {
+
     public BaseData.PlayerDataManager playerData;
-
+    public static bool isGameOver;
+    Gun[] guns;
+    private float Range;
+    public float FireRate;
     private Rigidbody2D _body;
-
+    private Vector2 Direction;
+    public float timeToFireBulletHell;
+    public float saveTimeToFireBulletHell;
+    public bool isFireBulletHell;
+    private bool Detected = false;
     public float BaseSpeed { get; set; } = 5;
     public float SmoothTime { get; set; } = 0.04f;
-
-    private Vector3 velocitySmoothing;
-
-    public FloatingJoystick joystick;
-
-    private State PlayerState { get; set; } = State.IDLE;
-
-    private Vector3 moveDir;
-
-    private float Range;
-
-    private Transform Target;
-
-    private bool Detected = false;
-
-    private Vector2 Direction;
-
-    //[SerializeField]
-    //private GameObject Gun;
-
-    public float FireRate;
-
     public float nextTimeToFire;
+    #region MovePlayer
+    [SerializeField]
+    private FloatingJoystick Joystick;
+    Vector2 move;
+    Rigidbody2D rb;
+    public float moveSpeed = 2f;
+    #endregion
 
-    public float Force;
-
-    Gun[] guns;
-
-    public float timeToFireBulletHell;
-
-    public float saveTimeToFireBulletHell;
-
-    public bool isFireBulletHell;
-
-    public int gunLength;
-
-    public Animator animator;
-
-    public static bool isGameOver;
+    [SerializeField]
+    private SpriteRenderer sprite;
+    private Animator playerAnimator;
 
     private void Awake()
     {
@@ -61,37 +41,30 @@ public class Player : MonoBehaviour, IBaseEntity
 
     void Start()
     {
-        SkillManager.instance.player = gameObject.GetComponent<Player>();
+        playerAnimator = GetComponent<Animator>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        // SkillManager.instance.player = gameObject.GetComponent<Player>();
         guns = transform.GetComponentsInChildren<Gun>();
-        Target = transform;
         Range = playerData.shootingRange;
         _body = GetComponent<Rigidbody2D>();
-        joystick = GameObject.FindGameObjectWithTag("InputControl").GetComponent<FloatingJoystick>();
-        animator = GetComponent<Animator>();
     }
     // Update is called once per frame
     void Update()
     {
-        Movement();
         timeToFireBulletHell -= Time.deltaTime;
-        switch (PlayerState)
-        {
-            case State.MOVEMENT:
-                break;
-            case State.IDLE:
-                Idle();
-                break;
-        }
+        move.x = Joystick.Horizontal;
+        move.y = Joystick.Vertical;
     }
 
+    private Transform Target;
     private void FixedUpdate()
     {
+        PlayerMove();
         Target = GetClosestEnemy(GetTransformEnemies());
         if (Target != null)
         {
             RaycastPosition();
         }
-
     }
 
     private List<Transform> GetTransformEnemies()
@@ -108,6 +81,20 @@ public class Player : MonoBehaviour, IBaseEntity
             result.Add(smallEnermy.transform);
         }
         return result;
+    }
+
+    public void PlayerMove()
+    {
+        playerAnimator.SetFloat("run", Mathf.Abs(move.x));
+        rb.MovePosition(rb.position + move * moveSpeed * Time.fixedDeltaTime);
+        if (move.x > 0)
+        {
+            sprite.flipX = false;
+        }
+        if (move.x < 0)
+        {
+            sprite.flipX = true;
+        }
     }
 
     private Transform GetClosestEnemy(List<Transform> enemies)
@@ -127,6 +114,11 @@ public class Player : MonoBehaviour, IBaseEntity
         }
         return bestTarget;
 
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, Range);
     }
 
     private void RaycastPosition()
@@ -159,79 +151,29 @@ public class Player : MonoBehaviour, IBaseEntity
                 if (isFireBulletHell && this.timeToFireBulletHell <= 0)
                 {
                     Debug.Log(saveTimeToFireBulletHell);
-                    ShootBulletHell();
+                    // ShootBulletHell();
                     timeToFireBulletHell = saveTimeToFireBulletHell;
                 }
-                Shoot();
+                //  Shoot();
             }
         }
     }
 
-    private void Shoot()
+    public float Force;
+    public int gunLength;
+
+    /*private void Shoot()
     {
         guns[0].Shoot(Direction, Force);
         Audio.PlaySound("fire");
-    }
+    }*/
 
-    private void ShootBulletHell()
+    /*private void ShootBulletHell()
     {
         for (int i = 0; i < gunLength; i++)
         {
             guns[i].Shoot(Direction, Force);
         }
-    }
+    }*/
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireSphere(transform.position, Range);
-    }
-
-    public void Movement()
-    {
-        bool isMoving = false;
-
-        if (joystick && joystick.Horizontal != 0 || joystick.Vertical != 0)
-        {
-            isMoving = true;
-            moveDir = new Vector2(joystick.Horizontal, joystick.Vertical);
-            _body.velocity = Vector3.SmoothDamp(_body.velocity, moveDir * playerData.speed, ref velocitySmoothing, SmoothTime);
-            if (joystick.Direction.x < 0)
-            {
-                transform.rotation = Quaternion.Euler(0, 180, 0);
-            }
-            else if (joystick.Direction.x > 0)
-            {
-                transform.rotation = Quaternion.Euler(0, 0, 0);
-
-            }
-        }
-        if (isMoving)
-        {
-            animator.SetBool("isMoving", true);
-            PlayerState = State.MOVEMENT;
-        }
-        else
-        {
-            animator.SetBool("isMoving", false);
-            PlayerState = State.IDLE;
-        }
-    }
-
-    public void Idle()
-    {
-        _body.velocity = Vector3.zero;
-    }
-
-    enum State
-    {
-        IDLE = 0,
-        MOVEMENT = 1,
-    }
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Enemy")
-    //    {
-    //        Destroy(collision.gameObject);
-    //    }
-    //}
 }
