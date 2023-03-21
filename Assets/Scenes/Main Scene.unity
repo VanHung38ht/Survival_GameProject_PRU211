@@ -3724,8 +3724,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034604a77fc32a446b3682ad157df52a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skills: []
-  skillButtons: []
+  skills:
+  - {fileID: 1788791803}
+  - {fileID: 159566283}
+  - {fileID: 50477800}
+  - {fileID: 217437626}
+  - {fileID: 1059396732}
+  - {fileID: 1023076733}
+  skillButtons:
+  - {fileID: 1788791802}
+  - {fileID: 159566282}
+  - {fileID: 50477799}
+  - {fileID: 217437625}
+  - {fileID: 1059396731}
+  - {fileID: 1023076732}
   activeSkill: {fileID: 0}
   player: {fileID: 1289701985}
   healthManager: {fileID: 1289701990}
@@ -4565,10 +4577,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 40
     m_FontStyle: 3
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 1
