@@ -5,10 +5,10 @@ using UnityEngine;
 public class RockMons : MonoBehaviour
 {
     private float count;
-    private float damageRM = 2;
+    private float damageRM = 5;
     private float bloodRM = 10;
     private float speedRM = 1;
-    private float attackSpeedRM = 5;
+    private float attackSpeedRM = 3;
     private float expRM = 10;
     private float startTimeBtwShotsRM = 3;
     private float timeBtwShotsRM = 0;

@@ -8,6 +8,7 @@ public class HurtPlayer : MonoBehaviour
     [SerializeField]
     private Enemy enemy;
     private HealthManager healthManager;
+
     // Start is called before the first frame update
     void Start()
     {

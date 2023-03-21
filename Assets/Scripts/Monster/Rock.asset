@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b862e2c261d27cd4ab0a35356fe6b8c9, type: 3}
+  m_Name: Rock
+  m_EditorClassIdentifier: 
+  className: 
+  classDescription: 
+  HP: 0
+  percentRegenHP: 0
+  armor: 0
+  percentDamage: 0
+  meleeDamage: 0
+  rangeDamage: 0
+  elementDamage: 0
+  percentLifeSteel: 0
+  attackRange: 0
+  range: 0
+  percentAttackSpeed: 0
+  Speed: 0
+  xpDrop: 0
+  percentExpGains: 0
+  percentCoinGains: 0

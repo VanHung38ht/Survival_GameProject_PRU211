@@ -9,7 +9,7 @@ public class BulletMonsController : MonoBehaviour
 
     void Start()
     {
-        Invoke("DestroyBulletRM", rockMons.ExistenceTimeBulletRM);
+        Invoke("DestroyBulletMonster", rockMons.ExistenceTimeBulletRM);
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class BulletMonsController : MonoBehaviour
         transform.Translate(Vector2.right * rockMons.AttackSpeedBulletRM * Time.deltaTime);
     }
 
-    void DestroyBulletBe1()
+    void DestroyBulletMonster()
     {
         Destroy(gameObject);
     }
@@ -27,6 +27,7 @@ public class BulletMonsController : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+
         }
     }
 }
