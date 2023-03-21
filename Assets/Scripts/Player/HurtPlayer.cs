@@ -26,7 +26,6 @@ public class HurtPlayer : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             healthManager.HurtPlayer(enemy.enemyData.meleeDamage);
-            //healthManager.HurtPlayer(rockMons.DamageRM);
         }
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBar : MonoBehaviour
+public class Expirence : MonoBehaviour
 {
     public Slider healthSlider;
     public Text healthText;
@@ -16,13 +16,13 @@ public class HealthBar : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("monster1"))
+        if (other.gameObject.CompareTag("Small Enemy"))
         {
             health -= 10;
             healthSlider.SetValueWithoutNotify(health);
             UpdateHealthText();
         }
-        else if (other.gameObject.CompareTag("monster2"))
+        else if (other.gameObject.CompareTag("Big Enemy"))
         {
             health -= 20;
             healthSlider.SetValueWithoutNotify(health);

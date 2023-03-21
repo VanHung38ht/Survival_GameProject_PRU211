@@ -15,7 +15,7 @@ public class HealthManager : MonoBehaviour, ISavevable
     // Start is called before the first frame update
     void Start()
     {
-        // SkillManager.instance.healthManager = this;
+        //SkillManager.instance.healthManager = this;
         timeToHealth = 3f;
         player = GetComponent<Player>();
         if (!isSave)
