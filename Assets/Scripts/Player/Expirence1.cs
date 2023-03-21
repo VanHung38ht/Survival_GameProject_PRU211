@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Expirence : MonoBehaviour
+public class Expirence1 : MonoBehaviour
 {
     [SerializeField]
     private int Value;
