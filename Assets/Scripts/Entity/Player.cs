@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -44,7 +45,14 @@ public class Player : MonoBehaviour
         
         playerAnimator = GetComponent<Animator>();
         rb = gameObject.GetComponent<Rigidbody2D>();
-        SkillManager.instance.player = gameObject.GetComponent<Player>();
+        try
+        {
+            SkillManager.instance.player = gameObject.GetComponent<Player>();
+        }
+        catch (NullReferenceException e)
+        {
+            Debug.LogError("Error: " + e.Message);
+        }
         guns = transform.GetComponentsInChildren<Gun>();
         Range = playerData.shootingRange;
         _body = GetComponent<Rigidbody2D>();
@@ -52,7 +60,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeToFireBulletHell -= Time.deltaTime;
+        if (timeToFireBulletHell != 0f)
+        {
+            timeToFireBulletHell -= Time.deltaTime;
+        }
         move.x = Joystick.Horizontal;
         move.y = Joystick.Vertical;
     }
@@ -144,19 +155,18 @@ public class Player : MonoBehaviour
             }
         }
 
-        if (Detected)
+
+        if (Time.time > nextTimeToFire)
         {
-            if (Time.time > nextTimeToFire)
+            nextTimeToFire = Time.time + FireRate;
+            Debug.Log(this.timeToFireBulletHell);
+            if (isFireBulletHell && this.timeToFireBulletHell <= 0f)
             {
-                nextTimeToFire = Time.time + FireRate;
-                if (isFireBulletHell && this.timeToFireBulletHell <= 0)
-                {
-                    Debug.Log(saveTimeToFireBulletHell);
-                    ShootBulletHell();
-                    timeToFireBulletHell = saveTimeToFireBulletHell;
-                }
-                Shoot();
+                Debug.Log(saveTimeToFireBulletHell);
+                ShootBulletHell();
+                timeToFireBulletHell = saveTimeToFireBulletHell;
             }
+            //                Shoot();
         }
     }
 
@@ -171,7 +181,7 @@ public class Player : MonoBehaviour
 
     private void ShootBulletHell()
     {
-        for (int i = 0; i < gunLength; i++)
+        for (int i = 0; i < gunLength - 1; i++)
         {
             guns[i].Shoot(Direction, Force);
         }

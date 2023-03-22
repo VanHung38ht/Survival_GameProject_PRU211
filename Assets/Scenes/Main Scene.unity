@@ -1596,8 +1596,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 3895643790013028016, guid: f80c15a055f837b45a3c79665a86e458, type: 3}
-  bulletSpeed: 10
-  shootInterval: 0.5
+  bulletSpeed: 2
+  shootInterval: 1.25
 --- !u!114 &1065500710 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7616358719729939948, guid: 01a6b6136c6a0174c9681ceb562a3b72, type: 3}
@@ -1763,7 +1763,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7616358719717937604, guid: 01a6b6136c6a0174c9681ceb562a3b72, type: 3}
   m_PrefabInstance: {fileID: 7616358720737991824}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1174805415
+--- !u!114 &1174805419
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1793,6 +1793,7 @@ MonoBehaviour:
   player: {fileID: 0}
   healthManager: {fileID: 0}
   timerManager: {fileID: 0}
+  autoshoot: {fileID: 0}
 --- !u!1 &1223483239
 GameObject:
   m_ObjectHideFlags: 0
@@ -4350,7 +4351,7 @@ PrefabInstance:
     - target: {fileID: 7616358720202901823, guid: 01a6b6136c6a0174c9681ceb562a3b72, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1174805415}
+      objectReference: {fileID: 1174805419}
     - target: {fileID: 7616358720202901823, guid: 01a6b6136c6a0174c9681ceb562a3b72, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdateButton
