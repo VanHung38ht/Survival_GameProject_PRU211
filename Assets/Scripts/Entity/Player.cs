@@ -58,6 +58,7 @@ public class Player : MonoBehaviour
         guns = transform.GetComponentsInChildren<Gun>();
         Range = playerData.shootingRange;
         _body = GetComponent<Rigidbody2D>();
+        Time.timeScale = 1;
     }
     // Update is called once per frame
     void Update()
