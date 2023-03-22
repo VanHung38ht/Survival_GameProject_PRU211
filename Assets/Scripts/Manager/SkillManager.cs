@@ -31,6 +31,8 @@ public class SkillManager : MonoBehaviour
 
     private void Start()
     {
+        player = Player.instance;
+        healthManager = HealthManager.instance;
         skillChooser = gameObject.GetComponent<SkillChooser>();
 
     }

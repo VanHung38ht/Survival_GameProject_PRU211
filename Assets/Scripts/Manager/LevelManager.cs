@@ -70,7 +70,7 @@ public class LevelManager : MonoBehaviour,ISavevable
         exp.value = currentExp;
         if (currentExp >= totalXPToReachLevel)
         {
-            ++level;
+            ++level; 
             currentExp -= totalXPToReachLevel;
             exp.value = currentExp;
             totalXPToReachLevel = TotalXPToReachLevel(level);

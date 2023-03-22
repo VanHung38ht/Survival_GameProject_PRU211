@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public float BaseSpeed { get; set; } = 5;
     public float SmoothTime { get; set; } = 0.04f;
     public float nextTimeToFire;
+    public static Player instance;
     #region MovePlayer
     [SerializeField]
     private FloatingJoystick Joystick;
@@ -38,6 +39,7 @@ public class Player : MonoBehaviour
         playerData.speed = 5;
         playerData.armor = 0;
         isGameOver = false;
+        instance= this;
     }
 
     void Start()
@@ -45,14 +47,14 @@ public class Player : MonoBehaviour
         
         playerAnimator = GetComponent<Animator>();
         rb = gameObject.GetComponent<Rigidbody2D>();
-        try
-        {
-            SkillManager.instance.player = gameObject.GetComponent<Player>();
-        }
-        catch (NullReferenceException e)
-        {
-            Debug.LogError("Error: " + e.Message);
-        }
+        //try
+        //{
+        //    SkillManager.instance.player = gameObject.GetComponent<Player>();
+        //}
+        //catch (NullReferenceException e)
+        //{
+        //    Debug.LogError("Error: " + e.Message);
+        //}
         guns = transform.GetComponentsInChildren<Gun>();
         Range = playerData.shootingRange;
         _body = GetComponent<Rigidbody2D>();

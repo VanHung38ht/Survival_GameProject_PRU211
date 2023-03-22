@@ -9,6 +9,7 @@ public class HealthManager : MonoBehaviour, ISavevable
     public float saveTimeToHealth;
     public bool isRegen = false;
     public static bool isSave = false;
+    public static HealthManager instance;
 
 
 
@@ -33,8 +34,9 @@ public class HealthManager : MonoBehaviour, ISavevable
             currentHealth = player.playerData.HP;
         }*/
 
-
-        SkillManager.instance.healthManager = this;
+        instance = this;
+        player = Player.instance;
+        //SkillManager.instance.healthManager = this;
         timeToHealth = 3f;
         player = GetComponent<Player>();
         if (!isSave)
