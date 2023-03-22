@@ -1763,7 +1763,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7616358719717937604, guid: 01a6b6136c6a0174c9681ceb562a3b72, type: 3}
   m_PrefabInstance: {fileID: 7616358720737991824}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1174805419
+--- !u!114 &1174805423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1793,7 +1793,6 @@ MonoBehaviour:
   player: {fileID: 0}
   healthManager: {fileID: 0}
   timerManager: {fileID: 0}
-  autoshoot: {fileID: 0}
 --- !u!1 &1223483239
 GameObject:
   m_ObjectHideFlags: 0
@@ -4351,7 +4350,7 @@ PrefabInstance:
     - target: {fileID: 7616358720202901823, guid: 01a6b6136c6a0174c9681ceb562a3b72, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1174805419}
+      objectReference: {fileID: 1174805423}
     - target: {fileID: 7616358720202901823, guid: 01a6b6136c6a0174c9681ceb562a3b72, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdateButton
