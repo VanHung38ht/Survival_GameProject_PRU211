@@ -27,7 +27,6 @@ public class SkillManager : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        //DontDestroyOnLoad(instance);
     }
 
     private void Start()
