@@ -152,10 +152,10 @@ public class Player : MonoBehaviour
                 if (isFireBulletHell && this.timeToFireBulletHell <= 0)
                 {
                     Debug.Log(saveTimeToFireBulletHell);
-                    // ShootBulletHell();
+                    ShootBulletHell();
                     timeToFireBulletHell = saveTimeToFireBulletHell;
                 }
-                //  Shoot();
+                Shoot();
             }
         }
     }
@@ -163,18 +163,18 @@ public class Player : MonoBehaviour
     public float Force;
     public int gunLength;
 
-    /*private void Shoot()
+    private void Shoot()
     {
         guns[0].Shoot(Direction, Force);
         Audio.PlaySound("fire");
-    }*/
+    }
 
-    /*private void ShootBulletHell()
+    private void ShootBulletHell()
     {
         for (int i = 0; i < gunLength; i++)
         {
             guns[i].Shoot(Direction, Force);
         }
-    }*/
+    }
 
 }
