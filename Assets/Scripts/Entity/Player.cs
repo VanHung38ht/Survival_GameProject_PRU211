@@ -41,9 +41,10 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        
         playerAnimator = GetComponent<Animator>();
         rb = gameObject.GetComponent<Rigidbody2D>();
-        // SkillManager.instance.player = gameObject.GetComponent<Player>();
+        SkillManager.instance.player = gameObject.GetComponent<Player>();
         guns = transform.GetComponentsInChildren<Gun>();
         Range = playerData.shootingRange;
         _body = GetComponent<Rigidbody2D>();

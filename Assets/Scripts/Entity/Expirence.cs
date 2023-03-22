@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Expirence1 : MonoBehaviour
+public class Expirence : MonoBehaviour
 {
     [SerializeField]
     private int Value;
@@ -46,7 +46,7 @@ public class Expirence1 : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             gameObject.SetActive(false);
-           // levelManager.LevelUp(Value);
+            levelManager.LevelUp(Value);
         }
     }
 }

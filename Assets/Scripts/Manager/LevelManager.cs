@@ -22,10 +22,10 @@ public class LevelManager : MonoBehaviour,ISavevable
     private Image circle_2;
 
     [SerializeField]
-    private GameObject rock_monster_0;
+    private GameObject smallEnemy;
 
     [SerializeField]
-    private GameObject zombie_pink_0;
+    private GameObject bigEnemy;
 
     private int level;
 
@@ -81,16 +81,16 @@ public class LevelManager : MonoBehaviour,ISavevable
 
     private void UpdateLevel(int level)
     {
-        if(level % 2 == 0)
+        if (level % 2 == 0)
         {
-            rock_monster_0.GetComponent<Enemy>().enemyData.Speed += (rock_monster_0.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
-            zombie_pink_0.GetComponent<Enemy>().enemyData.Speed += (zombie_pink_0.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
+            smallEnemy.GetComponent<Enemy>().enemyData.Speed += (smallEnemy.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
+            bigEnemy.GetComponent<Enemy>().enemyData.Speed += (bigEnemy.GetComponent<Enemy>().enemyData.Speed * 2) / 100;
         }
         StartCoroutine(ChooseSkill());
         this.level = level;
         text_1.text = this.level.ToString();
         text_2.text = (this.level + 1).ToString();
-        for(int i = 0; i < objectPooler.pools.Count - 1; i++)
+        for (int i = 0; i < objectPooler.pools.Count - 1; i++)
         {
             objectPooler.pools[i].maxSize += (objectPooler.pools[i].maxSize * 5) / 100;
         }
